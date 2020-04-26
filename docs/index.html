@@ -53,7 +53,7 @@
 <p><em>(Derived from above).</em></p>
 </li>
 <li>
-<p><strong><em>Identity domains</em></strong> don’t survive browsing data erasures. [^1]</p>
+<p><strong><em>Identity domains</em></strong> don’t survive browsing data erasures.</p>
 <p><em>(“Clear browsing data” effectively ends all identity domains.)</em></p>
 </li>
 </ul>
@@ -95,6 +95,9 @@ The same site can appear in multiple identity domains. For example, re-identific
 </li>
 <li>
 <p>Destroying an identity domain must necessarily remove all associated local storage, both transient and persisted. This requires a clear demarcation of which constructs “belong” to which identity domain.</p>
+</li>
+<li>
+<p>As a consequence, “Clear browsing data” requires unloading the active document from all affected browsing contexts. Otherwise the identity leaks across identity domains. As an added bonus, resetting an identity domain requires clearing all client-side state. There’s no such thing as a partial reset.</p>
 </li>
 </ul>
 

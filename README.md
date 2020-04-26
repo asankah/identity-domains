@@ -49,7 +49,7 @@ The “Identity domain” has the following properties:
 
     _(Derived from above)._
 
-*   **_Identity domains_** don’t survive browsing data erasures. [^1]
+*   **_Identity domains_** don’t survive browsing data erasures.
 
     _(“Clear browsing data” effectively ends all identity domains.)_
 
@@ -94,7 +94,7 @@ The “Identity domain” has the following properties:
     storage, both transient and persisted. This requires a clear demarcation of
     which constructs “belong” to which identity domain.
 
-[^1]: As a consequence, “Clear browsing data” requires unloading the active
+*   As a consequence, “Clear browsing data” requires unloading the active
     document from all affected browsing contexts. Otherwise the identity leaks
     across identity domains. As an added bonus, resetting an identity domain
     requires clearing all client-side state. There’s no such thing as a
