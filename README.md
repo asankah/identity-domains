@@ -2,9 +2,9 @@
 
 ![Diagram of example identity domains described below](images/identity-domains.png)
 
-Diagram showing relationships between clusters of documents and identity
-domains. `foo.example` and `baz.example` belong to the same first party set.
-`a.example` has no first-party relationship with any other domain.
+Above is a diagram showing relationships between clusters of documents and
+identity domains. `foo.example` and `baz.example` belong to the same first party
+set. `a.example` has no first-party relationship with any other domain.
 
 For the sake of making it easier to write about things, can we come up with a
 name for the scope within which we consider it a given that the user has a
@@ -97,5 +97,5 @@ The “Identity domain” has the following properties:
 *   As a consequence, “Clear browsing data” requires unloading the active
     document from all affected browsing contexts. Otherwise the identity leaks
     across identity domains. As an added bonus, resetting an identity domain
-    requires clearing all client-side state. There’s no such thing as a
-    partial reset.
+    requires clearing all client-side state. There’s no such thing as a partial
+    reset.
