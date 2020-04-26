@@ -6,12 +6,8 @@ Above is a diagram showing relationships between clusters of documents and
 identity domains. `foo.example` and `baz.example` belong to the same first party
 set. `a.example` has no first-party relationship with any other domain.
 
-For the sake of making it easier to write about things, can we come up with a
-name for the scope within which we consider it a given that the user has a
-shared or trivially joinable identity?
-
-I’ve called it the “identity domain” in these diagrams, but feel free to
-bikeshed or point me at existing terminology for it.
+> An **_Identity domain_** is a scope within which we consider it a given that
+> the user has a shared or trivially joinable identity.
 
 The “Identity domain” has the following properties:
 
