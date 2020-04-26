@@ -1,6 +1,6 @@
 ## Identity Domains
 
-![drawing](https://docs.google.com/a/google.com/drawings/d/12345/export/png)
+![Diagram of example identity domains described below](images/identity-domains.png)
 
 Diagram showing relationships between clusters of documents and identity
 domains. `foo.example` and `baz.example` belong to the same first party set.
