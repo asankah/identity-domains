@@ -1,4 +1,4 @@
-## Identity Domains
+# Identity Domains
 
 ![Diagram of example identity domains described below](images/identity-domains.png)
 
