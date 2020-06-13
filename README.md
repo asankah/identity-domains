@@ -1,6 +1,8 @@
-# Identity Domains
-
-![Diagram of example identity domains described below](images/identity-domains.png)
+---
+title: "Identity Domains"
+date: 2020-05-01
+---
+![Diagram of example identity domains described below](/images/identity-domains.png)
 
 Above is a diagram showing relationships between clusters of documents and
 identity domains. `foo.example` and `baz.example` belong to the same first party
