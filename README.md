@@ -1,15 +1,13 @@
----
-title: "Identity Domains"
-date: 2020-05-01
----
-![Diagram of example identity domains described below](/images/identity-domains.png)
+![Diagram of example identity domains described
+below](/images/identity-domains.png)
 
-Above is a diagram showing relationships between clusters of documents and
-identity domains. `foo.example` and `baz.example` belong to the same first party
-set. `a.example` has no first-party relationship with any other domain.
+Above is a diagram showing relationships between clusters of documents
+and identity domains. `foo.example` and `baz.example` belong to the same
+first party set. `a.example` has no first-party relationship with any
+other domain.
 
-> An **_Identity domain_** is a scope within which we consider it a given that
-> the user has a shared or trivially joinable identity.
+> An ***Identity domain*** is a scope within which we consider it a
+> given that the user has a shared or trivially joinable identity.
 
 An “Identity domain” has the following properties:
 
