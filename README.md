@@ -1,3 +1,6 @@
+Identity Domains
+================
+
 > An **Identity domain** is a scope within which we consider it a given
 > that the user has a shared or trivially joinable identity.
 
@@ -70,8 +73,7 @@ discussed in PING’s [Target Privacy Threat
 Model](https://w3cping.github.io/privacy-threat-model/) document which
 is a work in progress as of this writing.
 
-Additional Notes and Observations
----------------------------------
+### Additional Notes and Observations
 
 -   The identity domain is a privacy boundary. The boundary is something
     that’s asserted by the user-agent and doesn’t depend on the
